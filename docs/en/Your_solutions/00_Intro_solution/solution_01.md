@@ -1,77 +1,16 @@
-## Problem 1. Vector Algebra (step by step)
+1. Vector Algebra
 
-Given  
-$\vec{a}=[2,1,-3]$ and $\vec{b}=[4,-2,1]$.
+Given two vectors in 3D space: $\vec{a} = [2, 1, -3]$ and $\vec{b} = [4, -2, 1]$. Calculate:
 
----
+a) The magnitude of each vector.
+$|\vec{a}| = \sqrt{14}$
+$|\vec{b}| = \sqrt{21}$
 
-### a) Magnitude of each vector
+b) The dot product $\vec{a} \cdot \vec{b}$.
+$\vec{a} \cdot \vec{b} = 3$
 
-Magnitude in 3D:
+c) The cross product $\vec{a} \times \vec{b}$.
+$\vec{a} \times \vec{b} = [-5, -14, -8]$
 
-$$
-|\vec{v}|=\sqrt{v_x^2+v_y^2+v_z^2}.
-$$
-
-For $\vec{a}$:
-
-$$
-|\vec{a}|=\sqrt{2^2+1^2+(-3)^2}
-=\sqrt{4+1+9}
-=\sqrt{14}.
-$$
-
-For $\vec{b}$:
-
-$$
-|\vec{b}|=\sqrt{4^2+(-2)^2+1^2}
-=\sqrt{16+4+1}
-=\sqrt{21}.
-$$
-
-So:
-
-$$
-|\vec{a}|=\sqrt{14},\qquad|\vec{b}|=\sqrt{21}.
-$$
-
----
-
-### b) Dot product $\vec{a}\cdot\vec{b}$
-
-Dot product:
-
-$$
-\vec{a}\cdot\vec{b}=a_xb_x+a_yb_y+a_zb_z.
-$$
-
-Compute:
-
-$$
-\vec{a}\cdot\vec{b}=2\cdot4+1\cdot(-2)+(-3)\cdot1
-=8-2-3
-=3.
-$$
-
-So:
-
-$$
-\vec{a}\cdot\vec{b}=3.
-$$
-
----
-
-### c) Cross product $\vec{a}\times\vec{b}$
-
-Use the determinant:
-
-$$
-\vec{a}\times\vec{b}=
-\begin{vmatrix}
-\hat{i}&\hat{j}&\hat{k}\\
-2&1&-3\\
-4&-2&1
-\end{vmatrix}.
-$$
-
-Compute components:
+d) The angle between vectors $\vec{a}$ and $\vec{b}$.
+$\theta = \cos^{-1}\left(\frac{3}{\sqrt{14}\sqrt{21}}\right) \approx 79.9^\circ$
